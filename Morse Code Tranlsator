@@ -1,0 +1,69 @@
+def translator(x):
+    x = x.lower()
+    result = ""
+    for i in range(len(x)):
+        
+        if x[i] == "a":
+            result += ".-"
+        elif x[i] == "b":
+            result += "-..."
+        elif x[i] == "c":
+            result += "-.-."
+        elif x[i] == "d":
+            result += "-.."
+        elif x[i] == "e":
+            result += "."
+        elif x[i] == "f":
+            result += "..-."
+        elif x[i] == "g":
+            result += "--."
+        elif x[i] == "h":
+            result += "...."
+        elif x[i] == "i":
+            result += ".."
+        elif x[i] == "j":
+            result += ".---"
+        elif x[i] == "k":
+            result += "-.-"
+        elif x[i] == "l":
+            result += ".-.."
+        elif x[i] == "m":
+            result += "--"
+        elif x[i] == "n":
+            result += "-."
+        elif x[i] == "o":
+            result +="---"
+        elif x[i] == "p":
+            result += ".--."
+        elif x[i] == "q":
+            result += "--.-"
+        elif x[i] == "r":
+            result += ".-."
+        elif x[i] == "s":
+            result += "..."
+        elif x[i] == "t":
+            result += "-"
+        elif x[i] == "u":
+            result += "..-"
+        elif x[i] == "v":
+            result += "...-"
+        elif x[i] == "w":
+            result += ".--"
+        elif x[i] == "x":
+            result += "-..-"
+        elif x[i] == "y":
+            result += "-.--"
+        elif x[i] == "z":
+            result += "--.."
+        elif x[i] == " ":
+            result += " "
+        elif x[i] == ".":
+            result += ".-.-.-"
+        elif x[i] == ",":
+            result += "--..--"
+        elif x[i] == "?":
+            result += "..--.."
+            
+        
+    return result
+print (translator("Hello World")
